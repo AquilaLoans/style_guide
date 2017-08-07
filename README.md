@@ -10,7 +10,7 @@ Addendums to these standards are to be outlined and described below, and support
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'aquila-style_guide'
+gem 'aquila_style_guide'
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ Add this to your project .rubocop.yml file:
 
 ```yml
 inherit_gem:
-  style_guide: .rubocop.yml
+  aquila_style_guide: .rubocop.yml
 ```
 ## Addendums
 #### Documentation
