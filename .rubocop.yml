@@ -2,8 +2,6 @@ inherit_from:
   - lib/modified_cops.yml
   - lib/disabled_cops.yml
 
-Rails:
-  Enabled: true
 AllCops:
   DisplayCopNames: true
   Include:
