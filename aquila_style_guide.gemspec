@@ -2,11 +2,11 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'style_guide/version'
+require 'aquila_style_guide/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'aquila-style_guide'
-  spec.version       = StyleGuide::VERSION
+  spec.name          = 'aquila_style_guide'
+  spec.version       = AquilaStyleGuide::VERSION
   spec.authors       = ['Zane Wolfgang Pickett']
   spec.email         = ['sirwolfgang@users.noreply.github.com']
 

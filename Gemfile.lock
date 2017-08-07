@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    style_guide (0.1.0)
+    aquila_style_guide (0.1.2)
       rubocop
 
 GEM
@@ -29,9 +29,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aquila_style_guide!
   bundler
   rake
-  style_guide!
 
 BUNDLED WITH
    1.15.3
