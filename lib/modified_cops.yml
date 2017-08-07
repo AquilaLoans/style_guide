@@ -1,0 +1,12 @@
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%':  ()
+    '%q': ()
+    '%Q': ()
+    '%i': []
+    '%I': []
+    '%r': ()
+    '%s': ()
+    '%w': []
+    '%W': []
+    '%x': ()

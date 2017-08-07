@@ -1,0 +1,17 @@
+inherit_from:
+  - lib/modified_cops.yml
+  - lib/disabled_cops.yml
+
+Rails:
+  Enabled: true
+AllCops:
+  DisplayCopNames: true
+  Include:
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'config.ru'
+    - '**/*.rake'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
