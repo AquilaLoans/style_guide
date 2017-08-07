@@ -10,7 +10,7 @@ Addendums to these standards are to be outlined and described below, and support
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'style_guide', git: 'git@github.com:AquilaLoans/style_guide-ruby.git'
+gem 'aquila-style_guide'
 ```
 
 And then execute:
